@@ -8,17 +8,50 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectedTab: Int
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            LoginView()
+                .tabItem {
+                    if selectedTab == 0 {
+                        Image("gym")
+                    } else {
+                        Image("gymNo")
+                    }
+                    Text("Тренировки")
+                        .accentColor(.red)
+                }
+                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarBackground(Color(hex:"#212121"),for: .tabBar)
+                .tag(0)
+            
+            EmailPasswordView()
+                .tabItem {
+                    Image(systemName: "newspaper")
+                    Text("Лента")
+                }
+                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarBackground(Color(hex:"#212121"),for: .tabBar)
+                .tag(1)
+            
+            LoginView()
+                .tabItem {
+                    if selectedTab == 2{
+                        Image(systemName: "person.fill")
+                    }else{
+                        Image(systemName: "person")
+                    }
+                    Text("Личный кабинет")
+                }
+                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarBackground(Color(hex:"#212121"),for: .tabBar)
+                .tag(2)
         }
-        .padding()
+        .tint(Color(hex:"#F56002"))
     }
 }
 
+
 #Preview {
-    ContentView()
+    ContentView(selectedTab:0)
 }

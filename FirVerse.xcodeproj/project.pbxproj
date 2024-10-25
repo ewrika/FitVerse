@@ -11,6 +11,23 @@
 		E86EE49F2CC36DF4009E941B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE49E2CC36DF4009E941B /* ContentView.swift */; };
 		E86EE4A12CC36DF5009E941B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86EE4A02CC36DF5009E941B /* Assets.xcassets */; };
 		E86EE4A42CC36DF5009E941B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86EE4A32CC36DF5009E941B /* Preview Assets.xcassets */; };
+		E86EE4AE2CC36FAB009E941B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4AD2CC36FAB009E941B /* LoginView.swift */; };
+		E86EE4B12CC37037009E941B /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4B02CC37037009E941B /* extensions.swift */; };
+		E86EE4B32CC37126009E941B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4B22CC37126009E941B /* Constants.swift */; };
+		E86EE4BA2CC372AB009E941B /* Inter_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E86EE4B92CC372AA009E941B /* Inter_18pt-Medium.ttf */; };
+		E86EE4BF2CC377A8009E941B /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4BE2CC377A8009E941B /* LoginButton.swift */; };
+		E86EE4C12CC37C7F009E941B /* EmailPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4C02CC37C7F009E941B /* EmailPasswordView.swift */; };
+		E86EE4C32CC38DE1009E941B /* ChooseGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4C22CC38DE1009E941B /* ChooseGender.swift */; };
+		E86EE4C72CC38EA4009E941B /* TopBarChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4C62CC38EA4009E941B /* TopBarChoose.swift */; };
+		E86EE4C92CC38F2A009E941B /* BRITANIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E86EE4C82CC38F2A009E941B /* BRITANIC.TTF */; };
+		E86EE4CC2CC39661009E941B /* OrangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EE4CB2CC39661009E941B /* OrangeButton.swift */; };
+		E8DD58252CC83A6600C47A36 /* GrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58242CC83A6600C47A36 /* GrayButton.swift */; };
+		E8DD58272CC8D5CD00C47A36 /* TopBarMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58262CC8D5CD00C47A36 /* TopBarMain.swift */; };
+		E8DD582B2CCB994D00C47A36 /* training.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD582A2CCB994D00C47A36 /* training.swift */; };
+		E8DD582D2CCB9A9F00C47A36 /* ViewPractic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD582C2CCB9A9F00C47A36 /* ViewPractic.swift */; };
+		E8DD58312CCBB16E00C47A36 /* TimeSubPractic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58302CCBB16E00C47A36 /* TimeSubPractic.swift */; };
+		E8DD58332CCBB1EB00C47A36 /* CalSubPractic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58322CCBB1EB00C47A36 /* CalSubPractic.swift */; };
+		E8DD58352CCBB6B900C47A36 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58342CCBB6B900C47A36 /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,24 @@
 		E86EE49E2CC36DF4009E941B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E86EE4A02CC36DF5009E941B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E86EE4A32CC36DF5009E941B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E86EE4AD2CC36FAB009E941B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E86EE4B02CC37037009E941B /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		E86EE4B22CC37126009E941B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E86EE4B92CC372AA009E941B /* Inter_18pt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Medium.ttf"; sourceTree = "<group>"; };
+		E86EE4BB2CC372F3009E941B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E86EE4BE2CC377A8009E941B /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		E86EE4C02CC37C7F009E941B /* EmailPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPasswordView.swift; sourceTree = "<group>"; };
+		E86EE4C22CC38DE1009E941B /* ChooseGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGender.swift; sourceTree = "<group>"; };
+		E86EE4C62CC38EA4009E941B /* TopBarChoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarChoose.swift; sourceTree = "<group>"; };
+		E86EE4C82CC38F2A009E941B /* BRITANIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BRITANIC.TTF; sourceTree = "<group>"; };
+		E86EE4CB2CC39661009E941B /* OrangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButton.swift; sourceTree = "<group>"; };
+		E8DD58242CC83A6600C47A36 /* GrayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayButton.swift; sourceTree = "<group>"; };
+		E8DD58262CC8D5CD00C47A36 /* TopBarMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarMain.swift; sourceTree = "<group>"; };
+		E8DD582A2CCB994D00C47A36 /* training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = training.swift; sourceTree = "<group>"; };
+		E8DD582C2CCB9A9F00C47A36 /* ViewPractic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPractic.swift; sourceTree = "<group>"; };
+		E8DD58302CCBB16E00C47A36 /* TimeSubPractic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSubPractic.swift; sourceTree = "<group>"; };
+		E8DD58322CCBB1EB00C47A36 /* CalSubPractic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalSubPractic.swift; sourceTree = "<group>"; };
+		E8DD58342CCBB6B900C47A36 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +86,13 @@
 		E86EE49B2CC36DF4009E941B /* FirVerse */ = {
 			isa = PBXGroup;
 			children = (
+				E86EE4BB2CC372F3009E941B /* Info.plist */,
+				E86EE4AF2CC37010009E941B /* Helpers */,
+				E86EE4AC2CC36F90009E941B /* ViewModel */,
+				E86EE4AB2CC36F87009E941B /* Model */,
 				E86EE49C2CC36DF4009E941B /* FirVerseApp.swift */,
 				E86EE49E2CC36DF4009E941B /* ContentView.swift */,
+				E86EE4AA2CC36F7F009E941B /* Views */,
 				E86EE4A02CC36DF5009E941B /* Assets.xcassets */,
 				E86EE4A22CC36DF5009E941B /* Preview Content */,
 			);
@@ -65,6 +105,67 @@
 				E86EE4A32CC36DF5009E941B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E86EE4AA2CC36F7F009E941B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E86EE4BD2CC37793009E941B /* SubView */,
+				E86EE4AD2CC36FAB009E941B /* LoginView.swift */,
+				E8DD58342CCBB6B900C47A36 /* MainScreen.swift */,
+				E86EE4C02CC37C7F009E941B /* EmailPasswordView.swift */,
+				E86EE4C22CC38DE1009E941B /* ChooseGender.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E86EE4AB2CC36F87009E941B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8DD582A2CCB994D00C47A36 /* training.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E86EE4AC2CC36F90009E941B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E86EE4AF2CC37010009E941B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E86EE4B42CC371F9009E941B /* Fonts */,
+				E86EE4B02CC37037009E941B /* extensions.swift */,
+				E86EE4B22CC37126009E941B /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E86EE4B42CC371F9009E941B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E86EE4C82CC38F2A009E941B /* BRITANIC.TTF */,
+				E86EE4B92CC372AA009E941B /* Inter_18pt-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E86EE4BD2CC37793009E941B /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				E86EE4BE2CC377A8009E941B /* LoginButton.swift */,
+				E86EE4C62CC38EA4009E941B /* TopBarChoose.swift */,
+				E86EE4CB2CC39661009E941B /* OrangeButton.swift */,
+				E8DD58242CC83A6600C47A36 /* GrayButton.swift */,
+				E8DD58262CC8D5CD00C47A36 /* TopBarMain.swift */,
+				E8DD582C2CCB9A9F00C47A36 /* ViewPractic.swift */,
+				E8DD58302CCBB16E00C47A36 /* TimeSubPractic.swift */,
+				E8DD58322CCBB1EB00C47A36 /* CalSubPractic.swift */,
+			);
+			path = SubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86EE4C92CC38F2A009E941B /* BRITANIC.TTF in Resources */,
+				E86EE4BA2CC372AB009E941B /* Inter_18pt-Medium.ttf in Resources */,
 				E86EE4A42CC36DF5009E941B /* Preview Assets.xcassets in Resources */,
 				E86EE4A12CC36DF5009E941B /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +240,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8DD58252CC83A6600C47A36 /* GrayButton.swift in Sources */,
+				E86EE4C12CC37C7F009E941B /* EmailPasswordView.swift in Sources */,
+				E86EE4B32CC37126009E941B /* Constants.swift in Sources */,
+				E86EE4BF2CC377A8009E941B /* LoginButton.swift in Sources */,
+				E86EE4C72CC38EA4009E941B /* TopBarChoose.swift in Sources */,
+				E86EE4C32CC38DE1009E941B /* ChooseGender.swift in Sources */,
+				E86EE4AE2CC36FAB009E941B /* LoginView.swift in Sources */,
+				E8DD58352CCBB6B900C47A36 /* MainScreen.swift in Sources */,
 				E86EE49F2CC36DF4009E941B /* ContentView.swift in Sources */,
+				E8DD58272CC8D5CD00C47A36 /* TopBarMain.swift in Sources */,
+				E8DD582B2CCB994D00C47A36 /* training.swift in Sources */,
 				E86EE49D2CC36DF4009E941B /* FirVerseApp.swift in Sources */,
+				E8DD58312CCBB16E00C47A36 /* TimeSubPractic.swift in Sources */,
+				E8DD582D2CCB9A9F00C47A36 /* ViewPractic.swift in Sources */,
+				E86EE4B12CC37037009E941B /* extensions.swift in Sources */,
+				E8DD58332CCBB1EB00C47A36 /* CalSubPractic.swift in Sources */,
+				E86EE4CC2CC39661009E941B /* OrangeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +393,7 @@
 				DEVELOPMENT_TEAM = 36N72Y7M5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirVerse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +423,7 @@
 				DEVELOPMENT_TEAM = 36N72Y7M5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirVerse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
