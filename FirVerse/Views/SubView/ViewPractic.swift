@@ -1,38 +1,45 @@
 import SwiftUI
 
+
 struct ViewPractic: View {
+    let training: training  // Принимаем объект training
     
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             
-            // Image part with top corner rounding
-            Image("practic") // Замени "image" на нужный ресурс
+            // Изображение с закруглением верхних углов
+            training.photo
                 .resizable()
                 .scaledToFill()
                 .frame(maxWidth: .infinity, minHeight: 169, maxHeight: 169)
                 .clipped()
-                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous).path(in: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 169)))
                 .cornerRadius(16, corners: [.topLeft, .topRight])
             
             HStack {
-                Text("День Ног")
+                Text(training.title)
                     .foregroundColor(.white)
                     .fontWeight(.semibold)
                     .font(.system(size: 20))
                     .padding(.leading, 15)
+                
                 Spacer()
-                TimeSubPractic(time: 7)
-                CalSubPractic(cal: 170)
+                
+                TimeSubPractic(time: Int(training.time))
+                CalSubPractic(cal: training.calories)
             }
             .frame(maxWidth: .infinity, minHeight: 40, alignment: .leading)
             .padding(.bottom, 10)
             .background(Color(red: 0.18, green: 0.18, blue: 0.18))
-            .cornerRadius(16, corners: [.bottomLeft, .bottomRight]) // Скругляем только нижние углы
-            .offset(y:-15)
-        }
-        .padding()
+            .cornerRadius(16, corners: [.bottomLeft, .bottomRight])
+            .offset(y: -15)
+        }.navigationBarHidden(true)
     }
 }
+
+#Preview {
+    ViewPractic(training: training(photo: Image("practic"), title: "День Ног", time: 60, calories: 170, money: 15))
+}
+
 
 // Для того, чтобы использовать cornerRadius только для отдельных углов, можно расширить View так:
 
@@ -50,8 +57,4 @@ extension View {
     func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape(RoundedCorner(radius: radius, corners: corners))
     }
-}
-
-#Preview {
-    ViewPractic()
 }

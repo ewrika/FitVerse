@@ -11,7 +11,7 @@ struct ContentView: View {
     @State var selectedTab: Int
     var body: some View {
         TabView(selection: $selectedTab) {
-            LoginView()
+            MainScreen()
                 .tabItem {
                     if selectedTab == 0 {
                         Image("gym")
@@ -25,7 +25,7 @@ struct ContentView: View {
                 .toolbarBackground(Color(hex:"#212121"),for: .tabBar)
                 .tag(0)
             
-            EmailPasswordView()
+            NewsView()
                 .tabItem {
                     Image(systemName: "newspaper")
                     Text("Лента")
@@ -34,7 +34,7 @@ struct ContentView: View {
                 .toolbarBackground(Color(hex:"#212121"),for: .tabBar)
                 .tag(1)
             
-            LoginView()
+            PageInWork()
                 .tabItem {
                     if selectedTab == 2{
                         Image(systemName: "person.fill")

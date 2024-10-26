@@ -28,6 +28,12 @@
 		E8DD58312CCBB16E00C47A36 /* TimeSubPractic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58302CCBB16E00C47A36 /* TimeSubPractic.swift */; };
 		E8DD58332CCBB1EB00C47A36 /* CalSubPractic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58322CCBB1EB00C47A36 /* CalSubPractic.swift */; };
 		E8DD58352CCBB6B900C47A36 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58342CCBB6B900C47A36 /* MainScreen.swift */; };
+		E8DD58372CCC2AAB00C47A36 /* MyTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58362CCC2AAB00C47A36 /* MyTraining.swift */; };
+		E8DD58392CCCCFDF00C47A36 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58382CCCCFDF00C47A36 /* NewsModel.swift */; };
+		E8DD583B2CCCD12A00C47A36 /* NewsLenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD583A2CCCD12A00C47A36 /* NewsLenta.swift */; };
+		E8DD583D2CCCD2F300C47A36 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD583C2CCCD2F300C47A36 /* NewsView.swift */; };
+		E8DD583F2CCCD46600C47A36 /* PreTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD583E2CCCD46600C47A36 /* PreTraining.swift */; };
+		E8DD58412CCCDA2D00C47A36 /* PageInWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD58402CCCDA2D00C47A36 /* PageInWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +60,12 @@
 		E8DD58302CCBB16E00C47A36 /* TimeSubPractic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSubPractic.swift; sourceTree = "<group>"; };
 		E8DD58322CCBB1EB00C47A36 /* CalSubPractic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalSubPractic.swift; sourceTree = "<group>"; };
 		E8DD58342CCBB6B900C47A36 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		E8DD58362CCC2AAB00C47A36 /* MyTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTraining.swift; sourceTree = "<group>"; };
+		E8DD58382CCCCFDF00C47A36 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		E8DD583A2CCCD12A00C47A36 /* NewsLenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLenta.swift; sourceTree = "<group>"; };
+		E8DD583C2CCCD2F300C47A36 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		E8DD583E2CCCD46600C47A36 /* PreTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreTraining.swift; sourceTree = "<group>"; };
+		E8DD58402CCCDA2D00C47A36 /* PageInWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +124,10 @@
 			children = (
 				E86EE4BD2CC37793009E941B /* SubView */,
 				E86EE4AD2CC36FAB009E941B /* LoginView.swift */,
+				E8DD58402CCCDA2D00C47A36 /* PageInWork.swift */,
 				E8DD58342CCBB6B900C47A36 /* MainScreen.swift */,
+				E8DD583E2CCCD46600C47A36 /* PreTraining.swift */,
+				E8DD583C2CCCD2F300C47A36 /* NewsView.swift */,
 				E86EE4C02CC37C7F009E941B /* EmailPasswordView.swift */,
 				E86EE4C22CC38DE1009E941B /* ChooseGender.swift */,
 			);
@@ -123,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				E8DD582A2CCB994D00C47A36 /* training.swift */,
+				E8DD58382CCCCFDF00C47A36 /* NewsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,8 +178,10 @@
 				E8DD58242CC83A6600C47A36 /* GrayButton.swift */,
 				E8DD58262CC8D5CD00C47A36 /* TopBarMain.swift */,
 				E8DD582C2CCB9A9F00C47A36 /* ViewPractic.swift */,
+				E8DD583A2CCCD12A00C47A36 /* NewsLenta.swift */,
 				E8DD58302CCBB16E00C47A36 /* TimeSubPractic.swift */,
 				E8DD58322CCBB1EB00C47A36 /* CalSubPractic.swift */,
+				E8DD58362CCC2AAB00C47A36 /* MyTraining.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";
@@ -243,18 +261,24 @@
 				E8DD58252CC83A6600C47A36 /* GrayButton.swift in Sources */,
 				E86EE4C12CC37C7F009E941B /* EmailPasswordView.swift in Sources */,
 				E86EE4B32CC37126009E941B /* Constants.swift in Sources */,
+				E8DD583D2CCCD2F300C47A36 /* NewsView.swift in Sources */,
+				E8DD58372CCC2AAB00C47A36 /* MyTraining.swift in Sources */,
 				E86EE4BF2CC377A8009E941B /* LoginButton.swift in Sources */,
 				E86EE4C72CC38EA4009E941B /* TopBarChoose.swift in Sources */,
 				E86EE4C32CC38DE1009E941B /* ChooseGender.swift in Sources */,
 				E86EE4AE2CC36FAB009E941B /* LoginView.swift in Sources */,
+				E8DD58392CCCCFDF00C47A36 /* NewsModel.swift in Sources */,
 				E8DD58352CCBB6B900C47A36 /* MainScreen.swift in Sources */,
 				E86EE49F2CC36DF4009E941B /* ContentView.swift in Sources */,
 				E8DD58272CC8D5CD00C47A36 /* TopBarMain.swift in Sources */,
 				E8DD582B2CCB994D00C47A36 /* training.swift in Sources */,
 				E86EE49D2CC36DF4009E941B /* FirVerseApp.swift in Sources */,
 				E8DD58312CCBB16E00C47A36 /* TimeSubPractic.swift in Sources */,
+				E8DD583B2CCCD12A00C47A36 /* NewsLenta.swift in Sources */,
 				E8DD582D2CCB9A9F00C47A36 /* ViewPractic.swift in Sources */,
 				E86EE4B12CC37037009E941B /* extensions.swift in Sources */,
+				E8DD583F2CCCD46600C47A36 /* PreTraining.swift in Sources */,
+				E8DD58412CCCDA2D00C47A36 /* PageInWork.swift in Sources */,
 				E8DD58332CCBB1EB00C47A36 /* CalSubPractic.swift in Sources */,
 				E86EE4CC2CC39661009E941B /* OrangeButton.swift in Sources */,
 			);

@@ -43,7 +43,7 @@ struct TopBarMain: View {
                     Image("gym")
                 }
             }
-        }.padding(.horizontal, 32)
+        }.padding(.horizontal, 20)
     }
 }
 
